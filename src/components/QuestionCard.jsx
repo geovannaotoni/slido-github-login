@@ -5,14 +5,15 @@ export default class QuestionCard extends Component {
   // 2 - passar as props em seus lugares
 
   render() {
+    const { name, img, question } = this.props;
     return (
       <div>
         <div>
-          <img width="50" height="50" />
-          <p>NOME DA PESSOA</p>
+          <img width="50" height="50" src={img} />
+          <p>{name}</p>
         </div>
         <div>
-          <p>QUESTÃO</p>
+          <p>{question}</p>
         </div>
       </div>
     );
