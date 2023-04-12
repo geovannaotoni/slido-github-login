@@ -5,7 +5,7 @@ import Questions from './components/Questions';
 import { fetchApi } from './helpers/api';
 import { getLocalStorage, setLocalStorage } from './helpers/localStorage';
 
-// import "./App.css";
+import './App.css';
 
 class App extends React.Component {
   state = {
