@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #c40233;
+  background-color: #2367a6;
   padding: 15px 20px 25px 20px;
   text-align: center;
 }
@@ -71,14 +71,16 @@ button:hover {
   display: flex;
   align-items: center;
   padding: 10px 25px;
-}
-
-.question-card__container img {
-  margin-right: 15px;
+  border: 1px solid white;
+  margin: 10px;
 }
 
 .question-card__name {
   margin-bottom: 10px;
   font-weight: 300;
   font-size: 0.8rem;
+}
+
+.question-card__question {
+  margin-left: 20px;
 }

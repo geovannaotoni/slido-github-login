@@ -9,7 +9,7 @@ export default class Form extends Component {
     return (
       <div>
         {name && (
-          <>
+          <div className="form__container">
             <label htmlFor="question">
               DIGITE AQUI A SUA DÚVIDA:
               <textarea
@@ -20,7 +20,7 @@ export default class Form extends Component {
               />
             </label>
             <button onClick={handleSend}>Enviar</button>
-          </>
+          </div>
         )}
       </div>
     );

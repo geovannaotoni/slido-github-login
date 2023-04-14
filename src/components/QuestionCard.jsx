@@ -7,14 +7,12 @@ export default class QuestionCard extends Component {
   render() {
     const { name, img, question } = this.props;
     return (
-      <div>
+      <div className="question-card__container">
         <div>
           <img width="50" height="50" src={img} />
-          <p>{name}</p>
+          <p className="question-card__name">{name}</p>
         </div>
-        <div>
-          <p>{question}</p>
-        </div>
+        <p className="question-card__question">{question}</p>
       </div>
     );
   }
